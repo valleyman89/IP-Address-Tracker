@@ -1,0 +1,12 @@
+.leaflet-container {
+  height: 70vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.custom-marker {
+  background-image: url(/public/images/icon-location.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  cursor: default;
+}

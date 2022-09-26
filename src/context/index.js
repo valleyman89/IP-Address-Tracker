@@ -22,7 +22,7 @@ export const IpProvider = ({ children }) => {
   useEffect(() => {
     const ipifyApiCall = async () => {
       try {
-        const url = `https://geo.ipify.org/api/v2/country,city?apiKey=${key}&ipAddress=${ip}&escapedUnicode=1`;
+        const url = `/api/v2/country,city?apiKey=${key}&ipAddress=${ip}&escapedUnicode=1`;
         const response = await fetch(url);
         let dataToJson = await response.json();
         setData(formatDataObject(dataToJson));

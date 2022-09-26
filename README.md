@@ -54,7 +54,7 @@ Users should be able to:
 - [ipify API](https://geo.ipify.org/) - geolocation API
 - [LeafletJS](https://leafletjs.com/) - library for maps
 - [react-leaflet](https://react-leaflet.js.org/) - React components for LeafletJs
-- gh-pages
+- [gh-pages](https://github.com/gitname/react-gh-pages) - package to deploy app to GitHub Pages
 
 ### Useful resources
 

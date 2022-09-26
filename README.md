@@ -29,10 +29,14 @@ Users should be able to:
 - See their own IP address on the map on the initial page load ✅
 - Search for any IP address and see the key information and location ✅
 
+**note:** turn off adblocker if page doesn't load.
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL
+  - [https://www.frontendmentor.io/solutions/react-contextbased-using-leafletjs-dP-UdZyHt5](https://www.frontendmentor.io/solutions/react-contextbased-using-leafletjs-dP-UdZyHt5)
+- Live Site URL
+  - [https://valleyman89.github.io/IP-Address-Tracker](https://valleyman89.github.io/IP-Address-Tracker)
 
 ### Screenshot
 

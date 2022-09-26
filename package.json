@@ -1,7 +1,7 @@
 {
   "name": "ip-address-tracker",
   "version": "0.1.0",
-  "homeage": "https://valleyman89.github.io/IP-Address-Tracker",
+  "homepage": "https://valleyman89.github.io/IP-Address-Tracker",
   "proxy": "https://geo.ipify.org/",
   "private": true,
   "dependencies": {

@@ -17,7 +17,7 @@ const Search = () => {
       <div className="container">
         <input
           type="text"
-          placeholder="Search for any IP address or domain"
+          placeholder="Search for any IP address"
           className="shadow pointer"
           minLength="7"
           maxLength="15"

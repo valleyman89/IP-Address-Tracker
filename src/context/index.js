@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect } from "react";
+import { apiKey as key } from "../config";
 
 export const IpContext = createContext();
 
@@ -21,7 +22,7 @@ export const IpProvider = ({ children }) => {
   useEffect(() => {
     const ipifyApiCall = async () => {
       try {
-        const url = `https://geo.ipify.org/api/v2/country,city?apiKey=at_tcuasNftk6c4bu0zpJxeqRfsAozVs&ipAddress=${ip}&escapedUnicode=1`;
+        const url = `https://geo.ipify.org/api/v2/country,city?apiKey=${key}&ipAddress=${ip}&escapedUnicode=1`;
         const response = await fetch(url);
         let dataToJson = await response.json();
         setData(formatDataObject(dataToJson));
